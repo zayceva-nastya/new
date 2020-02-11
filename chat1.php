@@ -18,8 +18,13 @@
     $arr = file('chat.txt');
     foreach ($arr as $key => $value) {
         $buf = explode(":", $value);
+        if($buf[1]=="127.0.0.1"){
+            echo "Вы бан";
+        }else{
+             echo ($key % 2 == 0) ? "<div class='odd'>$buf[2]:$buf[3]</div>" : "<div class='even'>$buf[2]:$buf[3]</div>";
+        }
 
-        echo ($key % 2 == 0) ? "<div class='odd'>$buf[1]:$buf[2]</div>" : "<div class='even'>$buf[1]:$buf[2]</div>";
+       
     }
 
     ?>
