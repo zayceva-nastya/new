@@ -18,7 +18,7 @@
 
     ?>
       <form action='?' method='post'>
-          <input type="text" name="name" value="<?=$_POST['name']?>">
+          <input type="text" name="name" value="<?=isset($_POST['name'])?$_POST['name']:'';?>">
           <input type="text" name="mes">
           
           <input type="submit" >
