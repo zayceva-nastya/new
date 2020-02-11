@@ -1,0 +1,9 @@
+
+.even{
+    background-color: rgb(255, 30, 0);
+    height: 2rem;
+}
+.odd{
+    background-color: rgb(255, 217, 0);
+    height: 2rem;
+}
