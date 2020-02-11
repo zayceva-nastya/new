@@ -1,7 +1,2 @@
-kate:ввв
-kate:thhh
-sara:good
-sara:googАлексей:iui
-Алексей:iuu
-Алексей:uiu
-Алексей:il
+127.0.0.1:yjj:jjjjjj
+127.0.0.1:yyaya:yjj
