@@ -13,12 +13,13 @@
 <body>
 
     <?php
+   
 
     $arr = file('chat.txt');
- 
-    foreach ($arr as $key=>$value) {
-        echo ($key % 2 == 0) ? "<div class='odd'>$value</div>" : "<div class='even'>$value</div>";
-    
+    foreach ($arr as $key => $value) {
+        $buf = explode(":", $value);
+
+        echo ($key % 2 == 0) ? "<div class='odd'>$buf[1]:$buf[2]</div>" : "<div class='even'>$buf[1]:$buf[2]</div>";
     }
 
     ?>
