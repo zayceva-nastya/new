@@ -1,8 +1,6 @@
-Chrome/68.0.3440.106:127.0.0.1:lola:hello
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:gh
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:kkk
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:kjfkjfj
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:маруся:добрый вечер
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:маруся:привет
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:kdkkd:kkwk
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:kdkkd:ss
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>kate====>=>hello
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>sara====>=>petr
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>kate====>=>how do you do?
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>sara====>=>bebebe
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>dsfdf====>=>dfdf1581703538
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36====>=>127.0.0.1====>=>dsfdf====>=>dfdf====>=>1581703588
