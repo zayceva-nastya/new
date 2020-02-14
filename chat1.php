@@ -13,22 +13,14 @@
 <body>
 
     <?php
-   
+
 
     $arr = file('chat.txt');
-    $ban= file('config.txt');
-    print_r($ban);
-    $ip=$_SERVER['SERVER_ADDR'];
-    print_r($ip);
+    include ('config.php');
     foreach ($arr as $key => $value) {
-        $buf = explode(":", $value);
-        if(in_array($ip,$ban)){
-            echo "Вы забанены<br>";
-        }else{
-             echo ($key % 2 == 0) ? "<div class='odd'>$buf[3]:$buf[4]</div>" : "<div class='even'>$buf[3]:$buf[4]</div>";
-        }
-
-       
+        $buf = explode($separator, $value);
+         echo ($key % 2 == 0) ? "<div class='odd'>$buf[2]:$buf[3]</div>" : "<div class='even'>$buf[2]:$buf[3]</div>";
+        
     }
 
     ?>
