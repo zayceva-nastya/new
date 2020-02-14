@@ -10,8 +10,15 @@
     <?php
     // print_r($_SERVER['SERVER_ADDR']);
     // print_r($_SERVER['HTTP_USER_AGENT']);
-    if(!empty($_POST['mes'])){
-        file_put_contents("chat.txt",$_SERVER['HTTP_USER_AGENT'].":".$_SERVER['SERVER_ADDR'] .":".$_POST['name'].":".$_POST['mes']."\n",FILE_APPEND);
+    include ('config.php');
+    $ban = file('banlist.txt');
+    if (in_array(   $_SERVER['SERVER_ADDR'], $ban)) {
+        echo "Вы забанены<br>";
+    }
+    else{
+        if((!empty($_POST['name']))&&(!empty($_POST['mes']))){
+        file_put_contents("chat.txt",$_SERVER['HTTP_USER_AGENT'].$separator.$_SERVER['SERVER_ADDR'] .$separator.$_POST['name'].$separator.$_POST['mes'].$separator.time()."\n",FILE_APPEND);
+        }
     }
   
     
