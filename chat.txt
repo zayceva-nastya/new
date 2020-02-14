@@ -1,1 +1,8 @@
 Chrome/68.0.3440.106:127.0.0.1:lola:hello
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:gh
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:kkk
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:hhh:kjfkjfj
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:маруся:добрый вечер
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:маруся:привет
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:kdkkd:kkwk
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0:127.0.0.1:kdkkd:ss
