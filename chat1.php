@@ -16,12 +16,16 @@
    
 
     $arr = file('chat.txt');
+    $ban= file('config.txt');
+    print_r($ban);
+    $ip=$_SERVER['SERVER_ADDR'];
+    print_r($ip);
     foreach ($arr as $key => $value) {
         $buf = explode(":", $value);
-        if($buf[1]=="127.0.0.1"){
-            echo "Вы бан";
+        if(in_array($ip,$ban)){
+            echo "Вы забанены<br>";
         }else{
-             echo ($key % 2 == 0) ? "<div class='odd'>$buf[2]:$buf[3]</div>" : "<div class='even'>$buf[2]:$buf[3]</div>";
+             echo ($key % 2 == 0) ? "<div class='odd'>$buf[3]:$buf[4]</div>" : "<div class='even'>$buf[3]:$buf[4]</div>";
         }
 
        
