@@ -22,10 +22,8 @@
 
         $buf = explode($separator, $value);
 
-        $date = getdate($buf[4]);
-        $time = $date['hours'] . ":" . $date['minutes'] . "\t\t" . $date['mday'] . "\t" . $date['month'] . "\t" . $date['year'];
 
-        echo ($key % 2 == 0) ? "<div class='odd'> $buf[2] : $buf[3]    <div class=n>$time</div></div>" : "<div class='even'> $buf[2] : $buf[3]   <div class=n>$time</div> </div>   ";
+        echo ($key % 2 == 0) ? "<div class='odd'> $buf[2] : $buf[3]    <div class=n> $buf[4] </div></div>" : "<div class='even'> $buf[2] : $buf[3]   <div class=n> $buf[4] </div> </div>   ";
     }
 
     ?>
