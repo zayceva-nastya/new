@@ -13,12 +13,13 @@
     // print_r($_SERVER['REQUEST_TIME']);
     include ('config.php');
     $ban = file('banlist.txt');
+    $time=date("H-i-s d m Y");
     if (in_array(   $_SERVER['SERVER_ADDR'], $ban)) {
         echo "Вы забанены<br>";
     }
     else{
         if((!empty($_POST['name']))&&(!empty($_POST['mes']))){
-        file_put_contents("chat.txt",$_SERVER['HTTP_USER_AGENT'].$separator.$_SERVER['SERVER_ADDR'] .$separator.$_POST['name'].$separator.$_POST['mes'].$separator.$_SERVER['REQUEST_TIME']."\n",FILE_APPEND);
+        file_put_contents("chat.txt",$_SERVER['HTTP_USER_AGENT'].$separator.$_SERVER['SERVER_ADDR'] .$separator.$_POST['name'].$separator.$_POST['mes'].$separator.$time."\n",FILE_APPEND);
         }
     }
   
