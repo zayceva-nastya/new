@@ -1,0 +1,20 @@
+
+.even{
+    margin-bottom: 10px;
+    background-color: rgb(229, 255, 0);
+    height: 2rem;
+    width: 50%;
+}
+.odd{
+    margin-bottom: 10px;
+    background-color: rgb(166, 255, 0);
+    height: 2rem;
+    width: 50%;
+    
+}
+.n{
+    color: rgb(197, 53, 187);
+    font-size: 0.8rem;
+    
+
+}
