@@ -1,4 +1,4 @@
 <?php
-rename ('dowlands//'.$_POST['oldname'],'dowlands//'.$_POST['name'].".".$_POST['ras']);
+rename ('dowlands//'.$_POST['oldname'],'dowlands//'.$_POST['name'].".".$_POST['ext']);
 header("Location: show.php");
 ?>
