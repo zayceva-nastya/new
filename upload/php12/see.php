@@ -9,7 +9,7 @@
 
  <?php
  echo"<pre>";
-echo htmlspecialchars("<textarea></textarea>",file_get_contents('dowlands\\'.$_GET['see']))."<br>";
+echo file_get_contents('dowlands\\'.$_GET['see'])."<br>";
 
 ?>  
  <a href='show.php'><img src='home.jpg' width='70' height='50'></a>
