@@ -11,14 +11,17 @@
   </head>
   <body>
       <?php
-$a=explode(".",$_GET['name']);
+$fileNameArray=explode(".",$_GET['name']);
+$ext=$fileNameArray[count($fileNameArray)-1];
+unset($fileNameArray[count($fileNameArray)-1]);
+$filename=implode(".",$fileNameArray);
 
 
 ?>
 
 <form action="name.php" method="post">
-<input type="text" name="name" value="<?=$a[0]?>">
-<input type="hidden" name="ras" value="<?=$a[1]?>">
+<input type="text" name="name" value="<?=$filename?>">
+<input type="hidden" name="ext" value="<?=$ext?>">
 <input type="hidden" name="oldname" value="<?=$_GET['name']?>" >
 <button type="submit" class="btn btn-primary">rename</button>
 
