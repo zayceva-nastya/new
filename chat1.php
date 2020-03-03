@@ -17,6 +17,7 @@
 
     $arr = file('chat.txt');
     include('config.php');
+    
 // $format=("H-i-s d m Y");
     foreach ($arr as $key => $value) {
 
