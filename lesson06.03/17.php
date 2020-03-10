@@ -5,7 +5,7 @@ $file = file_get_contents($_POST['url']);
 // echo $file;
 $new_file = strip_tags($file) ;
 
-
+echo $new_file;
 
 $pat = [
     "/<.*?>|<\/.*?>/iux",
@@ -27,7 +27,7 @@ foreach($match[0] as $word){
 echo "<pre>";
 arsort($arr);
 
- print_r($arr);
+//  print_r($arr);
 
 ?>
 <?php
