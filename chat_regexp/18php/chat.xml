@@ -1,0 +1,49 @@
+<xml>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Алиса</name>
+        <text>в стране чудес :-)</text>
+        <date>16-41-11 12 03 2020</date>
+    </msg>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Динка</name>
+        <text>прощается с детством :-(</text>
+        <date>16-41-38 12 03 2020</date>
+    </msg>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Анна</name>
+        <text>[b]Каренина[/b]</text>
+        <date>16-42-11 12 03 2020</date>
+    </msg>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Евгений</name>
+        <text>[i]Онегин[/i]</text>
+        <date>16-42-38 12 03 2020</date>
+    </msg>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Война</name>
+        <text>
+            <i>и</i>
+            <b>мир</b>
+        </text>
+        <date>16-45-03 12 03 2020</date>
+    </msg>
+    <msg>
+        <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent>
+        <ip>127.0.0.1</ip>
+        <name>Преступление</name>
+        <text>и [u]наказание[/u]</text>
+        <date>16-45-40 12 03 2020</date>
+    </msg>
+    <msg>
+      
+     <msg><agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0</agent><ip>127.0.0.1</ip><name>Людмила</name><text>:)добрый [i]вечер[/i]</text><date>20-44-48 12 03 2020</date></msg>
