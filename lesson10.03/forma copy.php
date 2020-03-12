@@ -1,47 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box1{
-            height: 80%;
-        }
-        .box2{
-            height: 20%;
-        }
-    </style>
-</head>
-
-<body>
-    <?="<div class='box1'>"?>
-    <?php
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+    .window div:nth-child(odd){
+      background-color: red;
+      color: yellow;
+    }
+    .window div:nth-child(even){
+      background-color:yellow ;
+      color:red ;
+    }
+  </style>
+  <body class="p-2">
+  <?="<div class='window '>"?>
+  <?php
     include('xml_fun.php');
     include('fun.php');
     if (!empty($_POST['msg']) && !empty($_POST['name'])) {
         save_xml(htmlspecialchars($_POST['msg']), htmlspecialchars($_POST['name']), date("d.m.y h-m"));
     }
 
-    echo "<pre>";
-    // $arr = read_xml("1.xml");
+    echo "<pre >";
+  //  print_r(read_xml("1.xml"));
 
     foreach (read_xml("1.xml") as $key => $value) {
-        echo smile($value['name']) . ":" . smile($value['text']). ":" . $value['date'] . "<br>";
+        echo "<div>". smile($value['name']) . ":\t" .smile($value['text']). ":\t" . $value['date']. "</div>";
+        // echo "<div class='row'>". "<div class='col-3'>".smile($value['name']). ":" ."</div>" ."<div class='col-6'>".smile($value['text'])."</div>". ":" ."<div class='col-2'>".$value['date']."</div>". "</div>";
     }
 
     ?>
  <?="</div>"?>
- <?="<div class='box2'>"?>
-    <form action="?" method="post">
-        <textarea name="msg" id="" cols="10" rows="5"></textarea>
-        <input type="text" name="name">
-        <input type="submit">
+ 
+    <form action="?" method="post" >
+    <div class="form-row fixed-bottom m-2 py-3 bg-primary">
+    <div class="col-5">
+      <input type="text" name="msg" class="form-control" placeholder="Message">
+    </div>
+    <div class="col-5">
+      <input type="text" name="name" class="form-control" placeholder="Name">
+    </div>
+    <div class="col-2">
+      <input type="submit" class="form-control" value="Chek">
+    </div>
+  </div>
+        
 
 
-    </form>
-    <?="</div>"?>
-</body>
-
+    </form> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
